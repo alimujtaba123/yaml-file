@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    container_name: mujji_conta
+    ports:
+      - 4000:4000
+    
